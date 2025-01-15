@@ -8,3 +8,4 @@ For both the GARCH and LSTM models we need to perform feature engineering from t
 * For the LSTM model we engineer price-based features, rolling price based features), volume-based features, trading range and technical indicators such as Relative Strength Index (RSI), Bollinger Bands, and Moving Average Convergence Divergence (MACD). 
 
 # Feature Selection
+For the LSTM model we perform feature selection using multicolinearity anlysis, and predictive power for the target (rolling volatility).
