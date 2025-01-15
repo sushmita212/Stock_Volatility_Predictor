@@ -10,3 +10,5 @@ For both the GARCH and LSTM models we need to perform feature engineering from t
 # Feature Selection
 Even though we can build a variety of features to build the LSTM model on, a large number of features which may be correlated and may not have enough predictive power may overburden the model and harm it's performance. We therefore perform feature selection using multicolinearity anlysis, and predictive power for the target (rolling volatility). We need to be careful that there is is no dara leakage and ensure that we are only using historical data for making the prediction at each time step.
 
+# Data preparation for the LSTM model
+We then prepare the data to feed into the LSTM model by scaling the feaures and preparing a sequence of lagged features up to a chosen number of sequence length. 
