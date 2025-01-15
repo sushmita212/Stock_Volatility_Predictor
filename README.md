@@ -17,7 +17,7 @@ We then prepare the data to feed into the LSTM model by scaling the feaures and 
 |   |MAE|MSE|R-squared|
 |---|----|---|---|
 |GARCH|0.26|0.12|0.82|
-|---|----|---|---|
+|LSTM|0.12|0.04|0.96|
 
 
 # Future Work
