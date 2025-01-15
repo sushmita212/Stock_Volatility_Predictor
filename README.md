@@ -12,3 +12,7 @@ Even though we can build a variety of features to build the LSTM model on, a lar
 
 # Data preparation for the LSTM model
 We then prepare the data to feed into the LSTM model by scaling the feaures and preparing a sequence of lagged features up to a chosen number of sequence length. 
+
+# Results 
+
+# Future Work
