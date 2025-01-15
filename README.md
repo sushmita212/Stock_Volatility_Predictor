@@ -14,7 +14,8 @@ Even though we can build a variety of features to build the LSTM model on, a lar
 We then prepare the data to feed into the LSTM model by scaling the feaures and preparing a sequence of lagged features up to a chosen number of sequence length. 
 
 # Results 
-* Performance metrics for GARCH model: Mean Absolute Error (MAE)=0.26, Mean Squared Error (MSE)=0.12, R-squared = 0.82
+|   |MAE|MSE|R-squared|
+|---|----|---|---|
 
 
 # Future Work
