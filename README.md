@@ -7,3 +7,4 @@ For both the GARCH and LSTM models we need to perform feature engineering from t
 * For the GARCH model we calculate the log return and the rolling standard deviation (volatility). The GARCH model is then built on the historical volatility data.
 * For the LSTM model we engineer price-based features, rolling price based features), volume-based features, trading range and technical indicators such as Relative Strength Index (RSI), Bollinger Bands, and Moving Average Convergence Divergence (MACD). 
 
+# Feature Selection
