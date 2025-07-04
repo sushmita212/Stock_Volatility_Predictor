@@ -11,8 +11,9 @@ We use two types of models:
 ## 1. General Autoregressive Conditional Heteroskedasticiy (GARCH)
 A statistical model used in time series analysis and volatility forcasting which can handle varying volatility over time. A GARCH($p,q$) model forecasts the variance ($\sigma^2$) of a time series based on past $q$ return residuals and $p$ variance values. The model equation is given by
 <br>
-$\sigma_t^2=\alpha_0+\sum_{i=1}^q\alpha_i\epsilon_{t-i}^2+\sum_{i=1}^p\beta_i\sigma_{t-i}^2$
-
+$\sigma_t^2=\alpha_0+\sum_{i=1}^q\alpha_i\epsilon_{t-i}^2+\sum_{i=1}^p\beta_i\sigma_{t-i}^2.$
+<br>
+Here $\alpha_0$ is the long-run average variance, $\sigma^t$ is the standard deviation of the return at time step $t$, and $\epsilon_t$ is the residaul from the mean return at time step $t$.
 
 ## 2. Long Short-Term Memory (LSTM): 
 A type of recurrent neural network (RNN) suitable for time-seires forecasting using long-range dependencies in sequential data.
