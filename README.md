@@ -6,12 +6,11 @@ The goal of this project is to learn and implement time series analysis to forec
 Volatility is usually calculated on returns and not on raw stock prices, because returns capture relative change while prices are absolute. For e.g. the same price change of $10 in a $50 stock and a $500 stock means a price change of 20% and 2% respectivley. Thus we need a scale independent measure of volatility which is obtained by volatility on returns. In this project we aim to forecast the volatility of the log return, $r$, of the closing price of of stock given by 
 <br>
 $$r_t=ln\left(\frac{P_t}{P_{t-1}}\right)$$.
-
 <br>
 We use two types of models:
 <br>
-* General Autoregressive Conditional Heteroskedasticiy (GARCH): a statistical model used in time series analysis and volatility forcasting which can handle varying volatility over time.
-* Long Short-Term Memory (LSTM): a type of recurrent neural network (RNN) suitable for time-seires forecasting using long-range dependencies in sequential data.
+- General Autoregressive Conditional Heteroskedasticiy (GARCH): a statistical model used in time series analysis and volatility forcasting which can handle varying volatility over time.
+- Long Short-Term Memory (LSTM): a type of recurrent neural network (RNN) suitable for time-seires forecasting using long-range dependencies in sequential data.
 We build statistical (GARCH) and machine learning based (LSTM) models to predict volatility of the closig price for IBM stock.
 We pull the daily historical stock price data through the alpha vantage API.
 
