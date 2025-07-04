@@ -8,7 +8,7 @@ Volatility is usually calculated on returns and not on raw stock prices, because
 $$r_t=ln\left(\frac{P_t}{P_{t-1}}\right)$$.
 <br>
 We use two types of models:
-## 1. General Autoregressive Conditional Heteroskedasticiy (GARCH)
+## 1. General Autoregressive Conditional Heteroskedasticity (GARCH)
 A statistical model used in time series analysis and volatility forcasting which can handle varying volatility over time. A GARCH($p,q$) model forecasts the variance ($\sigma^2$) of a time series based on past $q$ return residuals and $p$ variance values. The model equation is given by
 <br>
 $\sigma_t^2=\alpha_0+\sum_{i=1}^q\alpha_i\epsilon_{t-i}^2+\sum_{i=1}^p\beta_i\sigma_{t-i}^2.$
