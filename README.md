@@ -9,6 +9,7 @@ $$r_t=ln\left(\frac{P_t}{P_{t-1}}\right)$$.
 
 <br>
 We use two types of models:
+<br>
 * General Autoregressive Conditional Heteroskedasticiy (GARCH): a statistical model used in time series analysis and volatility forcasting which can handle varying volatility over time.
 * Long Short-Term Memory (LSTM): a type of recurrent neural network (RNN) suitable for time-seires forecasting using long-range dependencies in sequential data.
 We build statistical (GARCH) and machine learning based (LSTM) models to predict volatility of the closig price for IBM stock.
