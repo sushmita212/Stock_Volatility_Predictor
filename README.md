@@ -8,8 +8,9 @@ Volatility is usually calculated on returns and not on raw stock prices, because
 $$r_t=ln\left(\frac{P_t}{P_{t-1}}\right)$$.
 <br>
 We use two types of models:
-## 1. General Autoregressive Conditional Heteroskedasticiy (GARCH): 
-A statistical model used in time series analysis and volatility forcasting which can handle varying volatility over time.
+## 1. General Autoregressive Conditional Heteroskedasticiy (GARCH)
+A statistical model used in time series analysis and volatility forcasting which can handle varying volatility over time. A GARCH($p$,$q$) model forecasts the variance ($\sigma^2$) of a time series based on past $p$ return residuals and $q$ variance values. The model equation is given by
+
 
 
 ## 2. Long Short-Term Memory (LSTM): 
