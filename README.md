@@ -10,7 +10,8 @@ $$r_t=ln\left(\frac{P_t}{P_{t-1}}\right)$$.
 We use two types of models:
 ## 1. General Autoregressive Conditional Heteroskedasticiy (GARCH)
 A statistical model used in time series analysis and volatility forcasting which can handle varying volatility over time. A GARCH($p,q$) model forecasts the variance ($\sigma^2$) of a time series based on past $q$ return residuals and $p$ variance values. The model equation is given by
-$\sigma_t^2=$
+<br>
+$\sigma_t^2=\alpha_0+\sum_{i=1}^q\alpha_i\epsilon_{t-i}^2$
 
 
 ## 2. Long Short-Term Memory (LSTM): 
