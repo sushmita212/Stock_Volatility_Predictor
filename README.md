@@ -1,5 +1,7 @@
 # Stock volatility prediction
-The stock prices of financial assets vary over time. Stock volatility refers to the degree of variation in a stock's price over time. Mathematically it is calculated by the standard deviation of the stock price over time.
+The stock prices of financial assets vary over time. The degree of variation of the stock price is expressed by volatility. Mathematically, the volatility is equivalent to the standard deviation of the stock price fluctuation over time.
+
+<br>
 In this repo, we build statistical (GARCH) and machine learning based (LSTM) models to predict volatility of the closig price for IBM stock.
 We pull the daily historical stock price data through the alpha vantage API.
 
